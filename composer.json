@@ -1,22 +1,17 @@
 {
-    "name": "firebase/php-jwt",
+    "name": "JWT/php-jwt",
     "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
-    "homepage": "https://github.com/firebase/php-jwt",
+    "homepage": "https://github.com/LaneHub/php-jwt",
     "keywords": [
         "php",
         "jwt"
     ],
     "authors": [
         {
-            "name": "Neuman Vong",
-            "email": "neuman+pear@twilio.com",
+            "name": "yuanling",
+            "email": "yuanling@lanehub.cn",
             "role": "Developer"
         },
-        {
-            "name": "Anant Narayanan",
-            "email": "anant@php.net",
-            "role": "Developer"
-        }
     ],
     "license": "BSD-3-Clause",
     "require": {
@@ -24,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Firebase\\JWT\\": "src"
+            "JWT\\": "src/"
         }
     },
     "require-dev": {
