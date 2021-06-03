@@ -11,7 +11,7 @@
             "name": "yuanling",
             "email": "yuanling@lanehub.cn",
             "role": "Developer"
-        },
+        }
     ],
     "license": "BSD-3-Clause",
     "require": {
